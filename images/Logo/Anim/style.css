@@ -1,0 +1,46 @@
+img{
+    height: 500px;
+    width: 500px;
+}
+.container{
+    position: relative;
+    height: 500px;
+    width: 500px;
+}
+.layer1{
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 0px;
+}
+.layer2{
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    right: 0px;
+}
+.layer3{
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+    right: 0px;
+}
+.layer4{
+    position: absolute;
+    z-index: 4;
+    top: 0px;
+    right: 0px;
+}
+.layer5{
+    position: absolute;
+    z-index: 5;
+    top: 0px;
+    right: 0px;
+}
+.layer6{
+    position: absolute;
+    z-index: 6;
+    top: 0px;
+    right: 0px;
+}
+
