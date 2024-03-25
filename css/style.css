@@ -27,9 +27,14 @@
     transition: transform ease-in-out .3s;
     transform: scale(1.35);
 }
-.logo:hover{
-    transition: transform ease-in-out .3s;
-    transform: scale(1.15);
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    margin-left: 15%;
+    font-size: 2.3em;
+    font-weight: bold;
 }
 nav, a{
     text-decoration: none;
@@ -37,9 +42,11 @@ nav, a{
 }
 .c1{
     color: #ffffff;
+    font-size: 1.5em;
 }
 .c1:hover{
     color: #ff5400;
+    font-weight: bold;
 }
 h1{
     color: #ffffff;
@@ -49,6 +56,7 @@ h1{
 h2{
     margin-top: 10%;
     font-size: 3em;
+    text-align: center;
 }
 .carte{
     margin-left: 5%;
@@ -56,8 +64,8 @@ h2{
     border-color: #272727;
     color: #ffffff;
 }
-.carte h3{
-    font-size: 2em;
+.carte h4{
+    font-size: 1.6em;
 }
 .carte p{
     font-size: 1em;
@@ -70,13 +78,8 @@ h2{
     transition: transform ease-in-out .3s;
     transform: scale(1.06);
 }
-.icon{
-    color: #ff5400;
-    font-size: 8rem;
-    margin-right: 10%;
-}
 .footer{
-    background-color: #0d0f14;
+    background-color: #101010;
     margin-top: 2%;
 }
 .footer_list nav a{
@@ -85,6 +88,7 @@ h2{
 }
 .footer_list nav a:hover{
     color: #ff5400;
+    font-weight: bold;
 }
 .footer_list{
     margin-top: 2%;
@@ -104,4 +108,11 @@ h2{
     border-radius: 25px;
     opacity: 0.80;
     margin-top: 14%;
+}
+.footer h5{
+    font-size: 2em;
+    font-weight: bold;
+}
+.footer li{
+    list-style: none;
 }
